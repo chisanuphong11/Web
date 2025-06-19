@@ -43,3 +43,31 @@
 ---
 
 ถ้ามีคำถามหรืออยากให้ช่วยเขียน backend ตัวอย่างบอกได้นะครับ!
+
+
+วิธีใช้งาน
+เตรียมโปรเจกต์ (ถ้ายังไม่มี package.json รันคำสั่งนี้ในโฟลเดอร์โปรเจกต์)
+
+csharp
+คัดลอก
+แก้ไข
+npm init -y
+ติดตั้ง dependencies ที่จำเป็น
+
+nginx
+คัดลอก
+แก้ไข
+npm install express cors
+รัน server ด้วยคำสั่ง
+
+nginx
+คัดลอก
+แก้ไข
+node server.js
+เปิดเบราว์เซอร์ที่
+
+arduino
+คัดลอก
+แก้ไข
+http://localhost:3000
+Frontend ที่คุณทำ จะเรียก API /api/gift เพื่อสุ่มของขวัญจาก backend ตัวนี้
